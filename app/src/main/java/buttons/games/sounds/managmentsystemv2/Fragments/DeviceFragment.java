@@ -15,6 +15,7 @@ import buttons.games.sounds.managmentsystemv2.R;
  */
 public class DeviceFragment extends Fragment {
 
+    //TODO !!!ADD FUNCTIONALITY TO ADD BUTTON!!! INIT FRAGMENT, FILL RECYCLER VIEW WITH ITEMS
 
     public DeviceFragment() {
         // Required empty public constructor

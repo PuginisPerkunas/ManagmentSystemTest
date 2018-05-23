@@ -15,6 +15,7 @@ import buttons.games.sounds.managmentsystemv2.R;
  */
 public class PersonFragment extends Fragment {
 
+    //TODO !!!ADD FUNCTIONALITY TO ADD BUTTON!!! INIT FRAGMENT, FILL RECYCLER VIEW WITH ITEMS
 
     public PersonFragment() {
         // Required empty public constructor
