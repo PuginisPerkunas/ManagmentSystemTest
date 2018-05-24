@@ -5,6 +5,26 @@
     <string name="title_persons">Persons</string>
     <string name="title_sets">Sets</string>
 
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Description</string>
+    <string name="price_hint">Price</string>
+    <string name="amount_hint">Amount</string>
+    <string name="photo_url_hint">Photo URL</string>
+
+    <string name="name_hint">Name</string>
+    <string name="surname_hint">Surname</string>
+    <string name="rent_from_hint">Rent From</string>
+    <string name="rent_till_hint">Rent Till</string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="email_hint">Email</string>
+    <string name="address_hint">Address</string>
+    <string name="note_hint">Note</string>
+    <string name="rent_devices_hint">Rent Devices</string>
+    <string name="total_price_hint">Total Price</string>
+
+    <string name="bt_add_text">Add</string>
+    <string name="bt_cancel_text">Cancel</string>
+
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

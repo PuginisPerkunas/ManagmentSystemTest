@@ -1,4 +1,4 @@
-package buttons.games.sounds.managmentsystemv2.Fragments;
+package buttons.games.sounds.managmentsystemv2.Fragments.AddFragments;
 
 
 import android.os.Bundle;
@@ -13,11 +13,10 @@ import buttons.games.sounds.managmentsystemv2.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class SetFragment extends Fragment {
+public class AddDeviceFragment extends Fragment {
 
-    //TODO !!!ADD FUNCTIONALITY TO ADD BUTTON!!! INIT FRAGMENT, FILL RECYCLER VIEW WITH ITEMS
 
-    public SetFragment() {
+    public AddDeviceFragment() {
         // Required empty public constructor
     }
 
@@ -26,7 +25,10 @@ public class SetFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_set, container, false);
+
+
+
+        return inflater.inflate(R.layout.fragment_add_device, container, false);
     }
 
 }

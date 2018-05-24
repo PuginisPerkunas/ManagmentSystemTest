@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Fragments.PersonFragment">
+    tools:context=".Fragments.MainFragments.PersonFragment">
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/rc_person_frag"

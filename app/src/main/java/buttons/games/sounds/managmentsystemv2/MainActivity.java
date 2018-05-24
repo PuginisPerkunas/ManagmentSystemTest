@@ -6,11 +6,10 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
-import android.widget.TextView;
 
-import buttons.games.sounds.managmentsystemv2.Fragments.DeviceFragment;
-import buttons.games.sounds.managmentsystemv2.Fragments.PersonFragment;
-import buttons.games.sounds.managmentsystemv2.Fragments.SetFragment;
+import buttons.games.sounds.managmentsystemv2.Fragments.MainFragments.DeviceFragment;
+import buttons.games.sounds.managmentsystemv2.Fragments.MainFragments.PersonFragment;
+import buttons.games.sounds.managmentsystemv2.Fragments.MainFragments.SetFragment;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -46,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
 
             switch (item.getItemId()) {
                 case R.id.navigation_devices:
-                    ft.replace(contentId, new DeviceFragment());
-                    ft.commit();
+                        ft.replace(contentId, new DeviceFragment());
+                        ft.commit();
                     return true;
                 case R.id.navigation_persons:
                     ft.replace(contentId, new PersonFragment());
